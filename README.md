@@ -1,10 +1,10 @@
-# hime privacy policy
+# hime privacy policy (redirect)
 
-Public host for the [hime](https://chromewebstore.google.com/) Chrome extension's privacy policy,
-required by the Chrome Web Store listing.
+This repo previously hosted the [hime](https://github.com/benfoden/hime) Chrome extension's privacy
+policy. It now serves a redirect only.
 
-Live: https://benfoden.github.io/hime-privacy/
+**Canonical policy: https://benfoden.com/privacy/hime/**
 
-The canonical source lives in the hime repo at `docs/privacy-policy.md` and is generated to HTML by
-`scripts/build-privacy-html.mjs`. Update it there, then copy the generated `docs/privacy-policy.html`
-here as `index.html`. Do not hand-edit `index.html`.
+The source of truth is `docs/privacy-policy.md` in the hime repo, published to benfoden.com via
+`content/privacy/hime.md` in the bfcom repo. This redirect exists so the older
+`benfoden.github.io/hime-privacy/` URL does not break for anyone who already has it.
